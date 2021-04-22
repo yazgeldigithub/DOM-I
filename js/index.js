@@ -57,3 +57,9 @@ h1E.textContent = siteContent.cta.h1
 
 let but1 = document.querySelector('button')
 but1.textContent = siteContent.cta.button
+
+let img2 = document.getElementById('middle-img')
+img2.setAttribute('src', siteContent["main-content"]["middle-img-src"])
+
+
+
