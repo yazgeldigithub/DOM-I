@@ -61,5 +61,14 @@ but1.textContent = siteContent.cta.button
 let img2 = document.getElementById('middle-img')
 img2.setAttribute('src', siteContent["main-content"]["middle-img-src"])
 
+let h4E = document.querySelectorAll('h4')
+h4E[0].textContent = siteContent["main-content"]["features-h4"]
+h4E[1].textContent = siteContent["main-content"]["about-h4"]
+h4E[2].textContent = siteContent["main-content"]["services-h4"]
+h4E[3].textContent = siteContent["main-content"]["product-h4"]
+h4E[4].textContent = siteContent["main-content"]["vision-h4"]
+h4E[5].textContent = siteContent["contact"]["contact-h4"]
+
+
 
 
