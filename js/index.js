@@ -69,6 +69,17 @@ h4E[3].textContent = siteContent["main-content"]["product-h4"]
 h4E[4].textContent = siteContent["main-content"]["vision-h4"]
 h4E[5].textContent = siteContent["contact"]["contact-h4"]
 
+let pE = document.querySelectorAll('p')
+pE[0].textContent = siteContent["main-content"]["features-content"]
+pE[1].textContent = siteContent["main-content"]["about-content"]
+pE[2].textContent = siteContent["main-content"]["services-content"]
+pE[3].textContent = siteContent["main-content"]["product-content"]
+pE[4].textContent = siteContent["main-content"]["vision-content"]
+pE[5].textContent = siteContent["contact"]["address"]
+pE[6].textContent = siteContent["contact"]["phone"]
+pE[7].textContent = siteContent["contact"]["email"]
+pE[8].textContent = siteContent["footer"]["copyright"]
+
 
 
 
