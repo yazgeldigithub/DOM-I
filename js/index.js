@@ -54,3 +54,6 @@ img1.setAttribute('src', siteContent.cta["img-src"])
 
 let h1E = document.querySelector('h1')
 h1E.textContent = siteContent.cta.h1
+
+let but1 = document.querySelector('button')
+but1.textContent = siteContent.cta.button
