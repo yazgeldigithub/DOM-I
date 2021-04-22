@@ -51,3 +51,6 @@ navItem[5].textContent = siteContent.nav["nav-item-6"]
 
 let img1 = document.getElementById('cta-img')
 img1.setAttribute('src', siteContent.cta["img-src"])
+
+let h1E = document.querySelector('h1')
+h1E.textContent = siteContent.cta.h1
